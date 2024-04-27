@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "748680947124",
+    "project_id": "degrees-9e17f",
+    "storage_bucket": "degrees-9e17f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748680947124:android:e2ba2944ca11dfc5313ee1",
+        "android_client_info": {
+          "package_name": "com.mycompany.degrees93"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748680947124-q9kik8vrb0p3dp85crdfotrk5lp3pq0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqvTMkqCZDoATluAxPL7KiWzksbHMkxGk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748680947124-q9kik8vrb0p3dp85crdfotrk5lp3pq0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
