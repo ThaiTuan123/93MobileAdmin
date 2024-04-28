@@ -99,6 +99,16 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => params.isEmpty
               ? const NavBarPage(initialPage: 'InputPrice')
               : const InputPriceWidget(),
+        ),
+        FFRoute(
+          name: 'DetailProduct',
+          path: '/detailProduct',
+          builder: (context, params) => DetailProductWidget(
+            name: params.getParam(
+              'name',
+              ParamType.String,
+            ),
+          ),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

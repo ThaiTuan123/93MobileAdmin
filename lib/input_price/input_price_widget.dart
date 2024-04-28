@@ -68,14 +68,14 @@ class _InputPriceWidgetState extends State<InputPriceWidget> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Patient Intake form',
+                'Nhập Cafe',
                 style: FlutterFlowTheme.of(context).headlineMedium.override(
                       fontFamily: 'Montserrat',
                       letterSpacing: 0.0,
                     ),
               ),
               Text(
-                'Please fill out the form below to continue.',
+                'Hãy nhập sản phẩm cafe mong muốn',
                 style: FlutterFlowTheme.of(context).labelMedium.override(
                       fontFamily: 'Readex Pro',
                       letterSpacing: 0.0,
@@ -752,7 +752,7 @@ class _InputPriceWidgetState extends State<InputPriceWidget> {
                           return;
                         }
                       },
-                      text: 'Submit Form',
+                      text: 'Gửi biểu mẫu',
                       options: FFButtonOptions(
                         width: double.infinity,
                         height: 48.0,

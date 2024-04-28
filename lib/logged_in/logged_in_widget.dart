@@ -164,6 +164,18 @@ class _LoggedInWidgetState extends State<LoggedInWidget> {
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
+                                        Text(
+                                          getJsonField(
+                                            productNameItem,
+                                            r'''$.image''',
+                                          ).toString(),
+                                          style: FlutterFlowTheme.of(context)
+                                              .bodyMedium
+                                              .override(
+                                                fontFamily: 'Readex Pro',
+                                                letterSpacing: 0.0,
+                                              ),
+                                        ),
                                       ],
                                     ),
                                   ),
